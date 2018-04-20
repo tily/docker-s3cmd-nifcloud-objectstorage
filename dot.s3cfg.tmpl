@@ -1,0 +1,5 @@
+[default]
+access_key = {{ .Env.OBJECTSTORAGE_ACCESS_KEY }}
+secret_key = {{ .Env.OBJECTSTORAGE_SECRET_KEY }}
+host_base = {{ .Env.OBJECTSTORAGE_REGION }}.os.cloud.nifty.com
+host_bucket = %(bucket)s.{{ .Env.OBJECTSTORAGE_REGION }}.os.cloud.nifty.com

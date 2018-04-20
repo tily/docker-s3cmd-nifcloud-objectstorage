@@ -1,0 +1,12 @@
+# docker-s3cmd-nifcloud-objectstorage
+
+## Usage
+
+```
+$ vi .env
+OBJECTSTORAGE_ACCESS_KEY=XXXXXXXXXXXXXXXXXXXX
+OBJECTSTORAGE_SECRET_KEY=YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+OBJECTSTORAGE_REGION=jp-east-2
+
+$ docker-compose run --rm s3cmd ls
+```
